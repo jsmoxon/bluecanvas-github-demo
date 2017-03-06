@@ -17,8 +17,8 @@
     </rules>
     <tasks>
         <fullName>TestTask</fullName>
-        <assignedTo>jack+source@bluecanvas.io</assignedTo>
-        <assignedToType>user</assignedToType>
+        <assignedTo>CEO</assignedTo>
+        <assignedToType>role</assignedToType>
         <description>bla bla</description>
         <dueDateOffset>3</dueDateOffset>
         <notifyAssignee>false</notifyAssignee>
