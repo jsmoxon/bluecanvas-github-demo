@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>TestField</fullName>
+        <description>test</description>
+        <field>Phone</field>
+        <name>TestField</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+    </fieldUpdates>
     <rules>
-        <fullName>AlexandJackTest</fullName>
+        <fullName>DemoRule</fullName>
         <actions>
-            <name>TestTask</name>
-            <type>Task</type>
+            <name>TestField</name>
+            <type>FieldUpdate</type>
         </actions>
         <active>true</active>
         <criteriaItems>
             <field>Account.Name</field>
             <operation>notEqual</operation>
-            <value>99</value>
+            <value>Test</value>
         </criteriaItems>
-        <description>testing prod workflow change</description>
+        <description>bla bla</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
-    <tasks>
-        <fullName>TestTask</fullName>
-        <assignedTo>CEO</assignedTo>
-        <assignedToType>role</assignedToType>
-        <description>bla bla</description>
-        <dueDateOffset>3</dueDateOffset>
-        <notifyAssignee>false</notifyAssignee>
-        <priority>Normal</priority>
-        <protected>false</protected>
-        <status>Not Started</status>
-        <subject>TestTask</subject>
-    </tasks>
 </Workflow>
