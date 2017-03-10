@@ -1,3 +1,3 @@
 public class NewClass {
-	//test class for AL
+	//make a comment for A and C
 }
