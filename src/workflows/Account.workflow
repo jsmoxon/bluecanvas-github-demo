@@ -15,7 +15,7 @@
             <name>TestField</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Account.Name</field>
             <operation>notEqual</operation>
